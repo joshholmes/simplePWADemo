@@ -13,10 +13,15 @@
         "type": "image/png"
       },
       {
-        "src": "assets/PWA_logo_144.png",
+        "src": "assets/PWA_logo_196.png",
         "sizes": "196x196",
         "type": "image/png",
         "purpose": "any maskable"
+      },
+      {
+        "src": "assets/PWA_logo_512.png",
+        "sizes": "512x512",
+        "type": "image/png"
       }
     ]
   }

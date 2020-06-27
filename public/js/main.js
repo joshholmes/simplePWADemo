@@ -18,4 +18,5 @@ window.onload = () => {
     window.addEventListener('online',  updateOnlineStatus);
     window.addEventListener('offline', updateOnlineStatus);
 
+    updateOnlineStatus(null);
   }

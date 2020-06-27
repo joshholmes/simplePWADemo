@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    theme_color: white;
   }
   
   /* Center the content in the browser window */
