@@ -1,0 +1,27 @@
+{
+  "name": "simplePWADemo",
+  "version": "1.0.0",
+  "description": "Simple PWA Demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshholmes/simplePWADemo.git"
+  },
+  "keywords": [
+    "PWA",
+    "Tutorial"
+  ],
+  "author": "Josh Holmes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshholmes/simplePWADemo/issues"
+  },
+  "homepage": "https://github.com/joshholmes/simplePWADemo#readme",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
+}
