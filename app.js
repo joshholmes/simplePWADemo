@@ -1,10 +1,15 @@
 var static = require('node-static');
-var http = require('http');
+var https = require('https');
 const fs = require('fs');
     
 var fileServer = new static.Server('./public');
+
+const options = {
+    key: fs.readFileSync('localhost.key'),
+    cert: fs.readFileSync('localhost.crt')
+};
   
-http.createServer(function (request, response) {
+https.createServer(options, function (request, response) {
     request.addListener('end', function () {
         console.log(request.url);
         console.log(request.httpVersion);
