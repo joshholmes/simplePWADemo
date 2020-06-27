@@ -5,5 +5,18 @@
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "white",
-    "theme_color": "white"
+    "theme_color": "white",
+    "icons": [
+      {
+        "src": "assets/PWA_logo_144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/PWA_logo_144.png",
+        "sizes": "196x196",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
   }
