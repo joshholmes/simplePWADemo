@@ -1,3 +1,7 @@
+# Presentation Deck
+
+This is a demo project for the talk [Progressive Web Apps: Where Do I Begin?](https://1drv.ms/p/s!AtDxbmN3T4GUhbdXO_uMEtol7GD0Vw?e=w6ZNyz) - feel free to check out the deck and each step in the demo is a tag from 0.1-0.5. 
+
 # simplePWADemo
 Very simple PWA Demo
 
